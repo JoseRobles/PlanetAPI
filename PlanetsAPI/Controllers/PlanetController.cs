@@ -28,7 +28,6 @@ namespace PlanetsAPI.Controllers
         [HttpGet]
         public IEnumerable<Planet> Get()
         {
-            var planets = new List<Planet>();
             return _planetService.GetData(); ;
         }
 

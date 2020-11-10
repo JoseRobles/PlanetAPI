@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanetsAPI", "PlanetsAPI.csproj", "{F2CCC594-FCB3-49D1-9E18-3ABEB1A585E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTOs", "..\DTOs\DTOs.csproj", "{A2DED263-1B20-42B0-8038-C4A401AB481F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "..\Infrastructure\Infrastructure.csproj", "{1120E7C0-83F1-478A-AE4B-92AB76666D54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2CCC594-FCB3-49D1-9E18-3ABEB1A585E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CCC594-FCB3-49D1-9E18-3ABEB1A585E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2CCC594-FCB3-49D1-9E18-3ABEB1A585E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CCC594-FCB3-49D1-9E18-3ABEB1A585E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2DED263-1B20-42B0-8038-C4A401AB481F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2DED263-1B20-42B0-8038-C4A401AB481F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2DED263-1B20-42B0-8038-C4A401AB481F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2DED263-1B20-42B0-8038-C4A401AB481F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1120E7C0-83F1-478A-AE4B-92AB76666D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1120E7C0-83F1-478A-AE4B-92AB76666D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1120E7C0-83F1-478A-AE4B-92AB76666D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1120E7C0-83F1-478A-AE4B-92AB76666D54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FC82FC5-0B31-4BFE-BCAF-8F6B363AEC88}
+	EndGlobalSection
+EndGlobal
